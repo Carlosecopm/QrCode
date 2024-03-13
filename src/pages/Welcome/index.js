@@ -12,14 +12,14 @@ export default function Welcome() {
             <View style={styles.containerLogo}>
             <Animatable.Image
             animation="flipInY"
-             source={require('../../assets/logo_muito.png')}
+             source={require('../../assets/pix.png')}
             style={{width:'100%'}}
             resizeMode="contain"
             />
             </View>
 
             <Animatable.View  delay={500} animation="fadeInUp" style={styles.containerForm}>
-            <Text style={styles.title}>Mais que um banco, um festival de vantagens</Text>    
+            <Text style={styles.title}>Além de um banco, um verdadeiro festival de vantagens.</Text>    
             <Text style={styles.text}>Acesse sua conta para começar</Text>
             </Animatable.View>
 
@@ -67,7 +67,7 @@ button:{
     paddingVertical: 8,
     width: '60%',
     alignSelf: 'center',
-    bottom: '15%',
+    bottom: '5%',
     alignItems: 'center',
     justifyContent: 'center'
 },
